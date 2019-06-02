@@ -15,7 +15,7 @@ public class Facebook {
 	@Test
 	public void Open() throws IOException {
 		
-			//new code after k7
+			//new code after k7 and need this for compare
 			System.setProperty("webdriver.chrome.driver","C:\\Users\\Kesavan B\\Downloads\\chromedriver_win32\\chromedriver.exe");
 			WebDriver driver=new ChromeDriver();
 			driver.manage().window().maximize();
