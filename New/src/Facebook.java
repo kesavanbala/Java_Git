@@ -20,14 +20,16 @@ public class Facebook {
 			WebDriver driver=new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-			driver.navigate().to("https://www.google.com/");
+			driver.navigate().to("https://www.facebook.com/");
 			
+			
+			/*
 			File f=new File("C:\\Users\\Kesavan B\\Desktop\\XLDocument.xlsx");
 			FileInputStream fis=new FileInputStream(f);
 			XSSFWorkbook wb=new XSSFWorkbook(fis);
 			XSSFSheet sheet=wb.getSheetAt(0);
 			int i=sheet.getLastRowNum();
-			int j=sheet.getRow(0).getLastCellNum();
+			int j=sheet.getRow(0).getLastCellNum();  */
 
 
 	}
