@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12725" started-at="2019-05-13T17:45:49Z" finished-at="2019-05-13T17:46:02Z">
+  <suite name="Default suite" duration-ms="7268" started-at="2019-06-02T13:55:02Z" finished-at="2019-06-02T13:55:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12725" started-at="2019-05-13T17:45:49Z" finished-at="2019-05-13T17:46:02Z">
+    <test name="Default test" duration-ms="7268" started-at="2019-06-02T13:55:02Z" finished-at="2019-06-02T13:55:09Z">
       <class name="Facebook">
-        <test-method status="PASS" signature="Open()[pri:0, instance:Facebook@5dfcfece]" name="Open" duration-ms="12701" started-at="2019-05-13T17:45:49Z" finished-at="2019-05-13T17:46:02Z">
+        <test-method status="PASS" signature="Open()[pri:0, instance:Facebook@1e88b3c]" name="Open" duration-ms="7246" started-at="2019-06-02T13:55:02Z" finished-at="2019-06-02T13:55:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Open -->
