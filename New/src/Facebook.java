@@ -25,11 +25,7 @@ public class Facebook {
 			WebDriver driver=new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-			//driver.navigate().to("https://www.facebook.com/");
-			driver.get("https://www.redbus.in/");
-			/*EventFiringWebDriver ef=new EventFiringWebDriver(driver);
-			File src=ef.getScreenshotAs(OutputType.FILE);
-			File dst=new File("C:\\Users\\Kesavan B\\Desktop\\kesu.png");  */
+			driver.navigate().to("https://www.facebook.com/");
 			Thread.sleep(5000);
 			WebDriverWait ww=new WebDriverWait(driver,20);
 			WebElement e1=driver.findElement(By.xpath("//label[@for='onward_cal']"));
